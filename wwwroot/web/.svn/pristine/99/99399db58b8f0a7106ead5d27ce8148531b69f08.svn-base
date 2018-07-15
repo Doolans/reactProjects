@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<style>
+
+    .search{
+    height:.55rem;
+   background: #0096ff;
+   display: flex;
+   position: relative;
+   
+}
+.search input{
+    height:.35rem;
+	width: 70%;
+    margin:.1rem 0;
+    border:none;
+    border-radius: .2rem;
+    outline:none;
+}
+.search .glass{
+	position: absolute;
+	left: 18%;
+    top: 28%;
+    font-size: .23rem;
+}
+.search .turn,.sear{
+    flex:1;
+    line-height: .55rem;
+    text-align: center;
+    color:#fff;
+    font-size: .2rem;
+}
+
+.main{
+    height:100%;
+}
+
+.main span{
+    display: inline-block;
+    margin:.1rem 0;
+}
+.del{
+    float: right;
+    margin-right: .1rem;
+    margin-top: .1rem;
+}
+.todolist{
+    
+   height:.6rem;
+   background: #fff;
+}
+.todolist li{
+    float: left;
+    width: 20%;
+    height: 90%;
+    margin: 2%;
+
+}
+.todolist li a{
+    display: inline-block;
+    height: 80%;
+    width: 100%;
+    border: 1px solid #eee;
+    text-align: center;
+    line-height: .4rem;
+    border-radius: 20%;
+
+}
+
+
+</style>
+<body>
+
+    <header class="search">
+        <i class="iconfont turn">&#xe64e;</i>
+        <i class="iconfont glass">&#xe617;</i>
+        <input type="text" placeholder="　　　搜索商家、商品名称">
+        <span class="sear">搜索</span>
+            
+    </header>
+    <main class="main">
+        <span>历史搜索</span><i class="iconfont del">&#xe838;</i>
+        <ul class="todolist">
+            <li><a href="#">周黑鸭</a></li>
+            <li><a href="#">榴莲千层</a></li>
+        </ul>
+        <br>
+        <span>热门搜索</span><i class="iconfont del">&#xe838;</i>
+        <ul class="todolist">
+            <li><a href="#">拉面</a></li>
+            <li><a href="#">花生</a></li>
+            <li><a href="#">榴莲</a></li>
+            <li><a href="#">周黑鸭</a></li>
+        </ul>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+
+</head>
+<style>
+    .collect{
+    height:.55rem;
+   background: #0096ff;
+   
+}
+.collect h2{
+    color:#fff;
+    font-weight: 100;
+    line-height: .55rem;
+    margin-left: .2rem;
+}
+h3{
+    text-align: center;
+    margin-top: 30%;
+}
+
+</style>
+<body>
+
+    <header class="collect">
+            <h2><i class="iconfont">&#xe8b7;</i>  我的收藏</h2>
+    </header>
+    <main>
+        <h3>您暂时还没有收藏~</h3>
+    </main>
+
+
+</body>
+</html>

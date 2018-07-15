@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/indexxxxx.css">
+    <link rel="stylesheet" href="css/discovery.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="discovery">
+            <h2>发现</h2>
+    </header>
+    <div class="namebox">
+        <div class="boxleft">
+            <div class="boxleftT">
+                <div class="inbox">
+                    <h3>积分商城</h3>
+                    <p>0元好物在这里！</p>
+                    <img src="img/0184f5b3fa72f295fc01864734218jpeg.jpeg" alt="bg">
+              </div>   
+            </div>
+            <div class="boxleftU">
+            
+                <h4>免费流量</h4>
+                <span>  最高500M！</span>
+                <img src="img/b7ba9547aa700bd20d0420e1794a8jpeg.jpeg" alt="bg">
+
+            </div>
+
+        </div>
+        <div class="boxright">
+            <div class="boxrightT">
+                    <span>美味爆料</span>
+                    <span> 承包饥饿！</span>
+                    <img src="img/ec21096d528b7cfd23cdd894f01c6jpeg.jpeg" alt="bg">
+                
+            </div>
+            <div class="boxrightC">
+                    <span>推荐有奖</span>
+                    <span>  快推荐~~！</span>
+                    <img src="img/b02bd836411c016935d258b300cfejpeg.jpeg" alt="bg">
+            </div>
+            <div class="boxrightU">
+                    <span>有红包快抢</span>
+                    <span> 5元红包免费~</span>
+                    <img src="img/c888acb2c8ba9e0c813f36ec9e90ajpeg.jpeg" alt="bg">
+            </div>
+
+        </div>
+
+    </div>
+    <div class="imgboxs">
+        <img src="img/03dis_02.jpg" alt="">
+    </div>
+    
+
+    <div class="eatbox">
+        <div class="titlebox">
+                <span>————● <i class="iconfont">&#xe668;</i><h3>美食推荐</h3> ●————</span>
+                <p>你的口味，我都懂得</p>
+        </div>
+        <div class="foodbox">
+            <ul>
+                <li>
+                    <img src="img/04.jpg" alt="jipai">
+                    <p>鸡排/牛肉双拼...</p>
+                    <span>￥19.8</span>
+                </li>
+                <li><img src="img/04.jpg" alt="jipai">
+                    <p>鸡排/牛肉双拼...</p>
+                    <span>￥19.8</span></li>
+                <li><img src="img/04.jpg" alt="jipai">
+                    <p>鸡排/牛肉双拼...</p>
+                    <span>￥19.8</span></li>
+            </ul>
+            <a href="#">查看更多》</a>
+        </div>
+        <div class="eatbox">
+                <div class="titlebox">
+                        <span>————● <i class="iconfont">&#xe668;</i><h3>美食推荐</h3> ●————</span>
+                        <p>你的口味，我都懂得</p>
+                </div>
+                <div class="foodbox">
+                    <ul>
+                        <li>
+                            <img src="img/04.jpg" alt="jipai">
+                            <p>鸡排/牛肉双拼...</p>
+                            <span>￥19.8</span>
+                        </li>
+                        <li><img src="img/04.jpg" alt="jipai">
+                            <p>鸡排/牛肉双拼...</p>
+                            <span>￥19.8</span></li>
+                        <li><img src="img/04.jpg" alt="jipai">
+                            <p>鸡排/牛肉双拼...</p>
+                            <span>￥19.8</span></li>
+                    </ul>
+                    <a href="#">查看更多》</a>
+                </div>
+                <div class="eatbox">
+                        <div class="titlebox">
+                                <span>————● <i class="iconfont">&#xe668;</i><h3>美食推荐</h3> ●————</span>
+                                <p>你的口味，我都懂得</p>
+                        </div>
+                        <div class="foodbox">
+                            <ul>
+                                <li>
+                                    <img src="img/04.jpg" alt="jipai">
+                                    <p>鸡排/牛肉双拼...</p>
+                                    <span>￥19.8</span>
+                                </li>
+                                <li><img src="img/04.jpg" alt="jipai">
+                                    <p>鸡排/牛肉双拼...</p>
+                                    <span>￥19.8</span></li>
+                                <li><img src="img/04.jpg" alt="jipai">
+                                    <p>鸡排/牛肉双拼...</p>
+                                    <span>￥19.8</span></li>
+                            </ul>
+                            <a href="#">查看更多》</a>
+                        </div>
+
+                        <div class="eatbox boxlast">
+                                <div class="titlebox">
+                                        <span>————● <i class="iconfont">&#xe668;</i><h3>美食推荐</h3> ●————</span>
+                                        <p>你的口味，我都懂得</p>
+                                </div>
+                                <div class="foodbox">
+                                    <ul>
+                                        <li>
+                                            <img src="img/04.jpg" alt="jipai">
+                                            <p>鸡排/牛肉双拼...</p>
+                                            <span>￥19.8</span>
+                                        </li>
+                                        <li><img src="img/04.jpg" alt="jipai">
+                                            <p>鸡排/牛肉双拼...</p>
+                                            <span>￥19.8</span></li>
+                                        <li><img src="img/04.jpg" alt="jipai">
+                                            <p>鸡排/牛肉双拼...</p>
+                                            <span>￥19.8</span></li>
+                                    </ul>
+                                    <a href="#">查看更多》</a>
+                                </div>
+                    
+    </div>
+    <footer id="footer">
+            <a href="" class="active">
+                <i class="iconfont sale">&#xe609;</i>外卖</a>
+            <a href="">
+                <i class="iconfont">&#xe711;</i>发现</a>
+            <a href="">
+                <i class="iconfont">&#xe612;</i>订单</a>
+            <a href="">
+                <i class="iconfont">&#xe629;</i>我的</a>
+    
+    </footer>
+  
+
+</body>
+</html>

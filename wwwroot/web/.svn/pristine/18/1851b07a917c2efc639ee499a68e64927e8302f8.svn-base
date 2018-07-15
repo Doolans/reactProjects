@@ -1,0 +1,90 @@
+
+.register-header{
+    width:100%;
+    height:0.9rem;
+    background: #2395ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 0.3rem;
+    padding: 0 .2rem;
+    box-sizing: border-box;
+}
+
+.register-header .header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:15%;
+}
+
+.register-header .header-left .iconfont{
+    font-size: 0.3rem;
+}
+
+.register-header a{
+    color: #fff;
+}
+
+.register-wrap{
+    margin:0.3rem 0;
+    background: #fff;
+}
+
+.register-wrap .register-tel{
+    display: flex;
+    height: 0.7rem;
+    margin:0 0.2rem;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.register-wrap .register-tel input{
+    flex: 3;
+    border:0;
+    outline: none;
+    font-size: 0.3rem;
+}
+
+.register-wrap .register-tel button{
+    flex: 1;
+    background: #d5d4d2;
+    border:0;
+    outline: none;  
+    font-size: 0.3rem;
+    color: #fff;
+}
+
+.register-wrap .verification{
+    border: none;
+    height:0.7rem;
+    margin:0 0.2rem;
+    width:100%;
+    border-bottom: 1px solid #d2d2d2;
+    font-size: 0.3rem;
+    outline: none;
+}
+
+.register-notice{
+    width:100%;
+    padding:.2rem;
+    font-size: 0.3rem;
+    box-sizing: border-box;
+}
+
+.register-confirm{
+    width: 100%;
+    padding:.2rem;
+    box-sizing: border-box;
+}
+
+.register-confirm button{
+    width:100%;
+    height: 0.7rem;
+    background: #4dc060;
+    border-radius: 0.05rem;
+    color: #fff;
+    font-size: 0.3rem;
+    outline: none;
+}

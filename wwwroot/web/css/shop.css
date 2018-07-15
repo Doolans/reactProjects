@@ -1,0 +1,130 @@
+
+.header{
+    height:.55rem;
+    background: #0096ff;
+}
+.header input{
+    height:.35rem;
+    width:3.29rem;
+    margin:.1rem .2rem;
+    border:none;
+    border-radius: .2rem;
+    outline:none;
+}
+
+
+.header .glass{
+	position: absolute;
+    left: 8%;
+    top: 3%;
+}
+
+
+#shoplist{
+	height:100%;
+	margin-bottom: .53rem;
+
+
+}
+#shoplist h3{
+	font-weight: 100;
+	margin:.1rem
+}
+#shoplist li{
+	background: #fff;
+	margin-top: .05rem;
+	height:1.5rem;
+	width:100%;
+}
+#shoplist li img{
+	width:20%;
+	height:40%;
+	float:left;
+	margin: .1rem;
+
+}
+.titlem{
+	float: left;
+	height:100%;
+	line-height: 1.5;
+	margin-left: .1rem;
+	font-size: .11rem;
+	position: relative;
+
+}
+.titlem p{
+	font-size: .13rem;
+}
+.succe{
+	position: absolute;
+    right: 0;
+
+font-size: .2rem;
+}
+.star{
+	color:#ffaa0c;
+}
+.reds{
+	color:red;
+}
+.titlem h3{
+	margin-top: .1rem;
+}
+.titlem .green{
+	color:#70bc46;
+	font-size: .18rem;
+	
+}
+.titlem .pink{
+	color:#f07373;
+	font-size: .2rem;
+}
+/* 底部 */
+
+
+#footer{
+
+	position: fixed;
+	bottom: 0px;
+	height:0.52rem;
+	width:100%;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#footer a{
+	height:100%;
+	display: flex;
+flex:1;
+	flex-direction: column;
+	align-items: center;
+	color:#aaa7a0;
+
+	
+
+}
+#footer a i{
+	font-size:0.23rem;
+	color:#646464;
+	margin: .04rem;
+}
+#footer a:hover{
+	display: flex;
+	width:0.71rem;
+	flex-direction: column;
+	align-items: center;
+	color:#aaa7a0;
+	background: #d9e2fa;
+	border-radius: 0.08rem;
+
+
+}
+
+#footer .sale{
+font-size: .23rem;
+color:#0096ff;
+}
+#footer .active{
+	color:#0096ff;
+}

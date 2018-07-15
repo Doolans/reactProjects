@@ -1,0 +1,309 @@
+/*头部*/
+
+.header {
+    width: 100%;
+    height: .56rem;
+    background: #0096ff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.header .search {
+    flex: 1;
+    height: 0.36rem;
+    background: #fff;
+    color: #666;
+    text-align: center;
+    border-radius: 0.18rem;
+    font-size: 0.15rem;
+    margin: 0 0.15rem;
+}
+
+.header .iconfont {
+    position: absolute;
+    top: 0.2rem;
+    left: 1rem;
+    font-size: 0.15rem;
+}
+
+/*导航*/
+
+.nav {
+    margin-top: .56rem;
+    box-sizing: content-box;
+    width: 100%;
+    padding-bottom: 0.25rem;
+    background: #fff;
+}
+
+.nav ul {
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav .item {
+    width: 20%;
+    margin-top: 0.1rem;
+    float: left;
+}
+
+.nav .item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav .item img {
+    display: inline-block;
+    width: 12vw;
+    height: 12vw;
+}
+
+.nav .item span {
+    font-size: 0.15rem;
+}
+
+/*活动*/
+
+.notice {
+    width: 100%;
+    min-height: 2rem;
+    background: #fff;
+}
+
+.notice .activity {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.14rem;
+    padding-bottom: 0.14rem;
+    margin-bottom: 0.1rem;
+}
+
+.notice .activity a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.notice .activity a img{
+    width:90%;
+}
+
+.notice .activity-bottom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notice .activity-bottom .act-item {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    border: 0.01rem solid #f5f5f5;
+}
+
+.notice .act-item .word {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.25rem;
+}
+
+.notice .act-item .word b {
+    font-size: 0.15rem;
+}
+
+.notice .act-item .word span {
+    font-size: 0.1rem;
+}
+
+.notice .act-item img {
+    width: 0.5rem;
+}
+
+/*内容*/
+
+.content {
+    width: 100%;
+    min-height: 3rem;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 0.15rem;
+    margin: 0.1rem;
+}
+
+.content .content-item {
+    width: 100%;
+    padding: 0.05rem 0;
+}
+
+.content-item .citem-top {
+    display: flex;
+}
+
+.content-item .content-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-item .content-logo img {
+    width: 80%;
+    height: 80%;
+}
+
+.content-item .content-main {
+    flex: 5;
+}
+
+.content-item .content-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.1rem;
+    line-height: 0.15rem;
+}
+
+.content-item .index-premium {
+    display: inline-block;
+    background: #ffdf3e;
+    font-size: 0.08rem;
+    color: #572b0b;
+    padding: 0.02rem;
+}
+
+.content-item h3 span {
+    color: #333;
+    font-size: .15rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content-item .font i {
+    font-size: 0.15rem;
+}
+
+.content-item .rating-actived .iconfont {
+    color: #ffaa0c;
+}
+
+.content-item .rating-actived span {
+    font-size: 0.12rem;
+}
+
+.content-item .index-moneylimit {
+    font-size: 0.12rem;
+}
+
+.content-item .index-timedistanceWrap {
+    font-size: 0.12rem;
+}
+
+.content-item .index-moneylimit span:nth-child(1)::after,
+.content-item .index-timedistanceWrap span:nth-child(1)::after {
+    content: '|';
+    color: #ddd;
+    margin: 0 0.8vw;
+}
+
+.content-item .citem-bottom {
+    width: 100%;
+    font-size: 0.12rem;
+    line-height: 0.15rem;
+    display: flex;
+}
+
+.citem-bottom .citem-bottomRight {
+    flex: 1;
+    display: block;
+}
+
+.citem-bottom .citem-bottomContent {
+    flex: 5;
+    padding: 0 0.1rem;
+}
+
+.citem-bottom .index-activityWrap {
+    margin-top: 0.08rem;
+    margin-bottom: 0.08rem;
+}
+
+.citem-bottom .index-activityWrap .icon img {
+    width: 1em;
+}
+
+.citem-bottom .index-activities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.citem-bottom .index-activityList .index-icon {
+    display: inline-block;
+    margin-bottom: 0.05rem;
+    width: 0.15rem;
+    height: 0.15rem;
+}
+
+.citem-bottom .index-actRow:nth-child(1) .index-icon {
+    background: rgb(112, 188, 70)
+}
+
+.citem-bottom .index-actRow:nth-child(2) .index-icon {
+    background: rgb(240, 115, 115)
+}
+
+.citem-bottom .index-activityList .index-icon span {
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.citem-bottom .index-activityBtn i {
+    font-size: 0.1rem;
+    padding: 0.03rem;
+}
+
+/*tab*/
+
+.tab {
+    background: #fff;
+    width: 100%;
+    height: 0.45rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    font-size: 0.12rem;
+}
+
+.tab .tab-button{
+    flex:1;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tab .tab-button .iconfont{
+    font-size: 0.16rem;
+    padding-bottom: 0.08rem;
+}
+
+.tab .tab-button:nth-child(1) .iconfont{
+    font-size: 0.25rem;
+    padding:0;
+}

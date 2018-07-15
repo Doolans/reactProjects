@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/home01.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script language="javascript">
+        window.onload = function () {
+            var mySwiper = new Swiper('.swiper-container', {
+                autoplay: 5000,
+                loop: true,
+                pagination: '.swiper-pagination',
+                slidesPerColumn: 1,
+                slidesPerColumnFill: 'column',
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <input type="button" value="搜索商家、商品名称" class="search">
+        <i class="iconfont">&#xe617;</i>
+    </header>
+    <section class="nav swiper-container">
+        <div class="swiper-wrapper">
+            <ul class="swiper-slide">
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/a867c870b22bc74c87c348b75528djpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/0184f5b3fa72f295fc01864734218jpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/d20d49e5029281b9b73db1c5ec6f9jpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/77ff360f7d3fde2d459727ad09fcfjpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/af108e256ebc9f02db599592ae655jpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/b02bd836411c016935d258b300cfejpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/c888acb2c8ba9e0c813f36ec9e90ajpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/b7ba9547aa700bd20d0420e1794a8jpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/ec21096d528b7cfd23cdd894f01c6jpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/235761e50d391445f021922b71789jpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="swiper-slide">
+                <li class="item">
+                    <a href="">
+                        <img class="nav-icon" src="./img/6f2631288a44ec177204e05cbcb93jpeg.jpeg">
+                        <span>美食</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <section class="notice">
+        <div class="activity">
+            <a href="">
+                <img src="./img/activity_03.jpg" alt=""/>
+            </a>
+        </div>
+        <div class="activity-bottom">
+            <a href="" class="act-item">
+                <div class="word">
+                    <b>满20减10</b>
+                    <span>广深大聚惠</span>
+                </div>
+                <div class="pic">
+                    <img src="./img/03.jpg" alt=""/>
+                </div>
+            </a>
+            <a href="" class="act-item">
+                <div class="word">
+                    <b>满20减10</b>
+                    <span>广深大聚惠</span>
+                </div>
+                <div class="pic">
+                    <img src="./img/03.jpg" alt=""/>
+                </div>
+            </a>
+            <a href="" class="act-item">
+                <div class="word">
+                    <b>满20减10</b>
+                    <span>广深大聚惠</span>
+                </div>
+                <div class="pic">
+                    <img src="./img/03.jpg" alt=""/>
+                </div>
+            </a>
+            <a href="" class="act-item">
+                <div class="word">
+                    <b>满20减10</b>
+                    <span>广深大聚惠</span>
+                </div>
+                <div class="pic">
+                    <img src="./img/03.jpg" alt=""/>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="content">
+        <h2>推荐商家</h2>
+        <div class="content-item">
+            <div class="citem-top">
+                <div class="content-logo">
+                    <img src="./img/1f13f62196de7301242a6cebbc8e0png.png" alt=""/>
+                </div>
+                <div class="content-main">
+                    <div class="content-line">
+                        <h3>
+                            <i class="index-premium">品牌</i>
+                            <span>乐凯撒比萨(中心书城店)</span>
+                        </h3>
+                        <em class="font">
+                            <i class="iconfont">&#xe62f;</i>
+                        </em>
+                    </div>
+                    <div class="content-line">
+                        <div class="rating-actived">
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <span class="index-rate">4.3</span>
+                            <span class="index-count">月售383单</span>
+                        </div>
+                    </div>
+                    <div class="content-line">
+                        <div class="index-moneylimit">
+                            <span>¥0起送</span>
+                            <span>配送费¥9</span>
+                        </div>
+                        <div class="index-timedistanceWrap">
+                            <span class="index-distanceWrap">615m</span>
+                            <span>47分钟</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="citem-bottom">
+                <span class="citem-bottomRight"></span>
+                <div class="citem-bottomContent">
+                    <div class="index-activityWrap">
+                        <i class="icon">
+                            <img src="./img/24c767ffa7fd296d3e2d6f01798c6png.png" alt=""/>
+                        </i>
+                        <span>口碑人气好店</span>
+                    </div>
+                    <div class="index-activities">
+                        <div class="index-activityList">
+                            <div class="index-actRow">
+                                <span class="index-icon">
+                                    <span>首</span>
+                                </span>
+                                <span class="index-desc">新用户下单立减17元</span>
+                            </div>
+                            <div class="index-actRow">
+                                <span class="index-icon">
+                                    <span>减</span>
+                                </span>
+                                <span class="index-desc">满35减10，满60减20</span>
+                            </div>
+                        </div>
+                        <div class="index-activityBtn">
+                            <span>6个活动</span>
+                            <i class="iconfont">&#xe822;</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-item">
+            <div class="citem-top">
+                <div class="content-logo">
+                    <img src="./img/1f13f62196de7301242a6cebbc8e0png.png" alt=""/>
+                </div>
+                <div class="content-main">
+                    <div class="content-line">
+                        <h3>
+                            <i class="index-premium">品牌</i>
+                            <span>乐凯撒比萨(中心书城店)</span>
+                        </h3>
+                        <em class="font">
+                            <i class="iconfont">&#xe62f;</i>
+                        </em>
+                    </div>
+                    <div class="content-line">
+                        <div class="rating-actived">
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <span class="index-rate">4.3</span>
+                            <span class="index-count">月售383单</span>
+                        </div>
+                    </div>
+                    <div class="content-line">
+                        <div class="index-moneylimit">
+                            <span>¥0起送</span>
+                            <span>配送费¥9</span>
+                        </div>
+                        <div class="index-timedistanceWrap">
+                            <span class="index-distanceWrap">615m</span>
+                            <span>47分钟</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="citem-bottom">
+                <span class="citem-bottomRight"></span>
+                <div class="citem-bottomContent">
+                    <div class="index-activityWrap">
+                        <i class="icon">
+                            <img src="./img/24c767ffa7fd296d3e2d6f01798c6png.png" alt=""/>
+                        </i>
+                        <span>口碑人气好店</span>
+                    </div>
+                    <div class="index-activities">
+                        <div class="index-activityList">
+                            <div class="index-actRow">
+                                <span class="index-icon">
+                                    <span>首</span>
+                                </span>
+                                <span class="index-desc">新用户下单立减17元</span>
+                            </div>
+                            <div class="index-actRow">
+                                <span class="index-icon">
+                                    <span>减</span>
+                                </span>
+                                <span class="index-desc">满35减10，满60减20</span>
+                            </div>
+                        </div>
+                        <div class="index-activityBtn">
+                            <span>6个活动</span>
+                            <i class="iconfont">&#xe822;</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-item">
+            <div class="citem-top">
+                <div class="content-logo">
+                    <img src="./img/1f13f62196de7301242a6cebbc8e0png.png" alt=""/>
+                </div>
+                <div class="content-main">
+                    <div class="content-line">
+                        <h3>
+                            <i class="index-premium">品牌</i>
+                            <span>乐凯撒比萨(中心书城店)</span>
+                        </h3>
+                        <em class="font">
+                            <i class="iconfont">&#xe62f;</i>
+                        </em>
+                    </div>
+                    <div class="content-line">
+                        <div class="rating-actived">
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <span class="index-rate">4.3</span>
+                            <span class="index-count">月售383单</span>
+                        </div>
+                    </div>
+                    <div class="content-line">
+                        <div class="index-moneylimit">
+                            <span>¥0起送</span>
+                            <span>配送费¥9</span>
+                        </div>
+                        <div class="index-timedistanceWrap">
+                            <span class="index-distanceWrap">615m</span>
+                            <span>47分钟</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="citem-bottom">
+                <span class="citem-bottomRight"></span>
+                <div class="citem-bottomContent">
+                    <div class="index-activityWrap">
+                        <i class="icon">
+                            <img src="./img/24c767ffa7fd296d3e2d6f01798c6png.png" alt=""/>
+                        </i>
+                        <span>口碑人气好店</span>
+                    </div>
+                    <div class="index-activities">
+                        <div class="index-activityList">
+                            <div class="index-actRow">
+                                <span class="index-icon">
+                                    <span>首</span>
+                                </span>
+                                <span class="index-desc">新用户下单立减17元</span>
+                            </div>
+                            <div class="index-actRow">
+                                <span class="index-icon">
+                                    <span>减</span>
+                                </span>
+                                <span class="index-desc">满35减10，满60减20</span>
+                            </div>
+                        </div>
+                        <div class="index-activityBtn">
+                            <span>6个活动</span>
+                            <i class="iconfont">&#xe822;</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-item">
+            <div class="citem-top">
+                <div class="content-logo">
+                    <img src="./img/1f13f62196de7301242a6cebbc8e0png.png" alt=""/>
+                </div>
+                <div class="content-main">
+                    <div class="content-line">
+                        <h3>
+                            <i class="index-premium">品牌</i>
+                            <span>乐凯撒比萨(中心书城店)</span>
+                        </h3>
+                        <em class="font">
+                            <i class="iconfont">&#xe62f;</i>
+                        </em>
+                    </div>
+                    <div class="content-line">
+                        <div class="rating-actived">
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <span class="index-rate">4.3</span>
+                            <span class="index-count">月售383单</span>
+                        </div>
+                    </div>
+                    <div class="content-line">
+                        <div class="index-moneylimit">
+                            <span>¥0起送</span>
+                            <span>配送费¥9</span>
+                        </div>
+                        <div class="index-timedistanceWrap">
+                            <span class="index-distanceWrap">615m</span>
+                            <span>47分钟</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="citem-bottom">
+                <span class="citem-bottomRight"></span>
+                <div class="citem-bottomContent">
+                    <div class="index-activityWrap">
+                        <i class="icon">
+                            <img src="./img/24c767ffa7fd296d3e2d6f01798c6png.png" alt=""/>
+                        </i>
+                        <span>口碑人气好店</span>
+                    </div>
+                    <div class="index-activities">
+                        <div class="index-activityList">
+                            <div class="index-actRow">
+                                <span class="index-icon">
+                                    <span>首</span>
+                                </span>
+                                <span class="index-desc">新用户下单立减17元</span>
+                            </div>
+                            <div class="index-actRow">
+                                <span class="index-icon">
+                                    <span>减</span>
+                                </span>
+                                <span class="index-desc">满35减10，满60减20</span>
+                            </div>
+                        </div>
+                        <div class="index-activityBtn">
+                            <span>6个活动</span>
+                            <i class="iconfont">&#xe822;</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-item">
+            <div class="citem-top">
+                <div class="content-logo">
+                    <img src="./img/1f13f62196de7301242a6cebbc8e0png.png" alt=""/>
+                </div>
+                <div class="content-main">
+                    <div class="content-line">
+                        <h3>
+                            <i class="index-premium">品牌</i>
+                            <span>乐凯撒比萨(中心书城店)</span>
+                        </h3>
+                        <em class="font">
+                            <i class="iconfont">&#xe62f;</i>
+                        </em>
+                    </div>
+                    <div class="content-line">
+                        <div class="rating-actived">
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <i class="iconfont">&#xe602;</i>
+                            <span class="index-rate">4.3</span>
+                            <span class="index-count">月售383单</span>
+                        </div>
+                    </div>
+                    <div class="content-line">
+                        <div class="index-moneylimit">
+                            <span>¥0起送</span>
+                            <span>配送费¥9</span>
+                        </div>
+                        <div class="index-timedistanceWrap">
+                            <span class="index-distanceWrap">615m</span>
+                            <span>47分钟</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="citem-bottom">
+                <span class="citem-bottomRight"></span>
+                <div class="citem-bottomContent">
+                    <div class="index-activityWrap">
+                        <i class="icon">
+                            <img src="./img/24c767ffa7fd296d3e2d6f01798c6png.png" alt=""/>
+                        </i>
+                        <span>口碑人气好店</span>
+                    </div>
+                    <div class="index-activities">
+                        <div class="index-activityList">
+                            <div class="index-actRow">
+                                <span class="index-icon">
+                                    <span>首</span>
+                                </span>
+                                <span class="index-desc">新用户下单立减17元</span>
+                            </div>
+                            <div class="index-actRow">
+                                <span class="index-icon">
+                                    <span>减</span>
+                                </span>
+                                <span class="index-desc">满35减10，满60减20</span>
+                            </div>
+                        </div>
+                        <div class="index-activityBtn">
+                            <span>6个活动</span>
+                            <i class="iconfont">&#xe822;</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="tab">
+        <a href="#" class="tab-button">
+            <i class="iconfont">&#xe722;</i>
+            <span>首页</span>
+        </a>
+        <a href="#" class="tab-button">
+            <i class="iconfont">&#xe711;</i>
+            <span>发现</span>
+        </a>
+        <a href="#" class="tab-button">
+            <i class="iconfont">&#xe612;</i>
+            <span>订单</span>
+        </a>
+        <a href="#" class="tab-button">
+            <i class="iconfont">&#xe601;</i>
+            <span>我的</span>
+        </a>
+    </footer>
+</body>
+
+</html>

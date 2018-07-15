@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--The content below is only a placeholder and can be replaced.-->
+
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+
+            <img src="/images/node.jpg" height="44px;" />
+
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+
+                <li class="active"><a href="#">外送管理</a>
+                </li>
+                <li class="active"><a href="#">系统设置</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a>欢迎您,admin</a>
+                </li>
+                <li><a href="#">安全退出</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+            <%include ../public/aside%>
+        </div>
+        <div class="col-sm-10">
+            <ol class="breadcrumb">
+                <li class="active">外送管理
+                </li>
+                <li class="active">外送商品列表
+                </li>
+            </ol>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    搜索
+                </div>
+                <div class="panel-body">
+                    <form role="form" class="form-inline">
+                        <div class="form-group">
+                            <label for="name">名称</label>
+                            <input type="text" class="form-control" id="name" placeholder="请输入名称">
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-default">开始搜索</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--
+                列表展示
+            -->
+            <div class="table-responsive">
+                <table class="table table-striped ">
+                    <thead>
+                    <tr>
+                        <th>商家编号</th>
+                        <th>客人名字</th>
+                        <th>客人电话</th>
+                        <th>订餐时间</th>
+                        <th>地址</th>
+                        <th>产品</th>
+                        <th>送到时间</th>
+                        <th>状态</th>
+                        <th class="text-center">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <%for(var i=0;i<list.length;i++){%>
+                    <tr>
+
+                        <td>
+                            <%=list[i].shop_id%>
+                        </td>
+                        <td>
+                            <%=list[i].name%>
+                        </td>
+
+                        <td>
+                            <%=list[i].tel%>
+                        </td>
+                        <td>
+                            <%=list[i].address%>
+                        </td>
+
+                        <td>
+                            <%=list[i].products%>
+                        </td>
+                        <td>
+                            <%=list[i].desciption%>
+                        </td>
+                        <td>
+                            <%=list[i].add_time%>
+                        </td>
+                        <td>
+                            <%=list[i].status%>
+                        </td>
+
+                        <td>
+                            <a href="/admin/focus/edit?id=<%=list[i]._id%>">编辑</a>
+
+                            <a href="order/del?id=<%=list[i]._id%>">删除</a>
+                        </td>
+                    </tr>
+
+                    <%}%>
+
+
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

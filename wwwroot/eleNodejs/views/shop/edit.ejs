@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+
+<body>
+    <!--The content below is only a placeholder and can be replaced.-->
+
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+
+
+
+    <link rel="stylesheet" href="/css/basic.css">
+
+
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <img src="/images/node.jpg" height="44px;" />
+
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li class="active"><a href="#">商品管理</a>
+                    </li>
+                    <li class="active"><a href="#">系统设置</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a>欢迎您,admin</a>
+                    </li>
+                    <li><a href="#">安全退出</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2">
+
+                <%include ../public/aside%>
+
+            </div>
+            <div class="col-sm-10">
+                <ol class="breadcrumb">
+                    <li class="active">店铺管理
+                    </li>
+                    <li class="active">店铺详情
+                    </li>
+                </ol>
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        修改订餐信息
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive input-form">
+                            <form action="/admin/shop/doEdit" method="post" enctype="multipart/form-data">
+                                <ul>
+
+
+                                    <input type="hidden" name="id" value="<%=ss._id%>" />
+
+                                    <li>
+                                        店 名:
+                                        <input type="text" name="name" value="<%=ss.name%>" />
+                                    </li>
+
+                                    <li>
+                                        店铺图片: <input type="file" name="pic" />
+
+                                        <img src="<%=ss.pic%>" style="height:60px;" />
+                                    </li>
+
+                                    <li>描述: <input type="text" name="description" value="<%=ss.description%>" /></li>
+                                    <li>地址: <input type="text" name="address" value="<%=ss.address%>" /></li>
+                                    <li>电话: <input type="text" name="tel" value="<%=ss.tel%>" /></li>
+                                    <li>用餐时间: <input type=" text " name="add_time" value="<%=ss.add_time%>" /></li>
+                                    <li>状态 :
+                                        <input type="text" name="status" value="<%=ss.status%>" /></li>
+
+                                    <li>
+                                        <br/>
+                                        <button type="submit" class="btn btn-default">提交</button>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript ">
+        <!--var cid = document.getElementById('cid');-->
+
+
+        <!--var catename = document.getElementById('catename');-->
+        <!--var options = cid.getElementsByTagName('option');-->
+
+        <!--cid.onchange = function() {-->
+
+        <!--for (var i = 0; i < options.length; i++) {-->
+        <!--if (options[i].selected) {-->
+
+        <!--catename.value = options[i].innerHTML;-->
+        <!--}-->
+
+        <!--}-->
+
+        <!--}-->
+    </script>
+
+
+
+
+</body>
+
+</html>

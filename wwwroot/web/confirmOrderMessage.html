@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript">
+		
+			// 把尺寸放大N倍（N是window.devicePixelRatio）
+			var wd = document.documentElement.clientWidth*window.devicePixelRatio/10;
+			document.getElementsByTagName("html")[0].style.fontSize = wd + "px";
+			// 把屏幕的倍率缩小到N分之一（N是window.devicePixelRatio）
+		//	var scale = 1/window.devicePixelRatio;
+		//	var mstr = 'initial-scale='+ scale +', maximum-scale='+ scale +', minimum-scale='+ scale +', user-scalable=no';
+		//	document.getElementById("vp").content = mstr;
+		
+		</script>
+		<style type="text/css">
+			body{
+				background: #f5f5f5;
+			}
+			header{
+				height: 0.4rem;
+				width: 100%;
+				background: #00a3ff;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			header i{
+				display: flex;
+				width: 0.2rem
+				line-height: 0.4rem;
+				text-align: center;
+			
+			}
+			header span {
+				display: block;
+				flex: 1;
+				text-align: center;
+				line-height: 0.4rem;
+				vertical-align: center;
+			}
+			#address{
+				height: 0.66rem;
+				width: 100%;
+				background: white;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-bottom: 2px dashed #007AFF;
+				
+			}
+			#add{
+				height: 0.3rem;
+				width: 1.35rem;
+				border-radius: 0.3rem;
+				border: 1px solid #00a3ff;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #00a3ff;
+				font-size: 0.12rem;
+				font-weight: 200;
+				
+			}
+			#sendProduct{
+				height: 0.94rem;
+				margin-top: 0.06rem;
+				width: 100%;
+				
+			}
+			#sendProduct .sendProductUl{
+				
+				width: 100%;
+				height: 0.94rem;
+				font-size: 0.12rem;
+				
+			}
+			#sendProduct .sendProductUl li{
+				height: 0.46rem;
+				width: 100%;
+				line-height: 0.46rem;
+				display: flex;
+			}
+			#sendProduct .sendProductUl li span{
+				display: block;
+				width: 0.6rem;
+				margin-left: 0.1rem;
+				float: left;
+				
+			}
+			#sendProduct .sendProductUl li select{
+				flex: 1;
+			}
+			#sendProduct .sendProductUl li .sendTimeRight{
+				width: 0.1rem;
+				margin-right: 0.1rem;
+			}
+			
+			#sendProduct .sendProductUl li em{
+				display: block;
+				float: right;
+				color: #00a3ff;
+				font-style: normal;
+				right: 0.1rem;
+				margin-right: 0.1rem;
+			}
+			/*.content li h4{
+				width: 0.7rem;
+				margin-left: 0.1rem;
+			}
+			.content li #shop{
+				display: block;
+				font-size: 0.12rem;
+				width: 1.5rem;
+				margin-left: 0;
+			}
+			.content li img{
+				margin-left: 0.1rem;
+			}
+			.content #productDetail span:first-child{
+				display: block;
+				width: 1.8rem;
+			}
+			#productDetail{
+				height: 100%;
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			#productDetail #productDetailContent{
+				height: 0.3rem;
+				font-size: 0.12rem;
+				
+			}
+			#productDetail #productDetailContent img{
+				height: 0.3rem;
+				width: 0.3rem;
+			}
+			#productDetail #productDetailContent span:nth-child(1){
+				display: block;
+				width: 0.8rem;
+				height: 0.3rem;
+				overflow: hidden;
+			}
+			#productDetail #productDetailContent span{
+				
+			}*/
+			#sendProduct .content{
+				min-height: 0.94rem;
+				width: 100%;
+				
+			}
+			#sendProduct .content li{
+				height: 0.46rem;
+				width: 100%;
+				line-height: 0.46rem;
+				display: flex;
+				align-items: center;
+			}
+			#sendProduct .content li:nth-child(1) p{
+				display: block;
+				font-size: 0.12rem;
+				height: 0.3rem;
+				margin-left: 0.1rem;
+				
+			}
+			/*#sendProduct .content li:nth-child(1) p span{
+				font-size: 0.8rem;
+			}*/
+			#sendProduct .content li:nth-child(2) h3{
+				display: block;
+				height: 0.3rem;
+				font-size: 0.12rem;
+				font-weight: 100;
+				line-height: 0.3rem;
+				margin-left: 0.1rem;
+			}
+			#sendProduct .content li:nth-child(2) h3 img{
+				display: block;
+				height: 0.3rem;
+				width: 0.3rem;
+				float: left;
+			}
+			#sendProduct .content li:nth-child(2) h3 span{
+				line-height: 0.3rem;
+				padding: 0 0.05rem;
+			}
+			#sendProduct .content li:nth-child(2) h3 span:nth-child(4){
+				text-decoration: line-through;
+			}
+			#sendProduct .content li:nth-child(2) h3 span:last-child{
+				color: orangered;
+				display: block;
+				float: right;
+			}
+			#sendProduct .content li:nth-child(3) h3{
+				height: 0.3rem;
+				width: 100%;
+				font-weight: 100;
+				font-size: 0.12rem;
+				margin-left: 0.1rem;
+			}
+			#sendProduct .content li:nth-child(3) h3 span:first-child{
+				background: #60acf4;
+				color: white;
+				margin-right: 0.2rem;
+			}
+			#sendProduct .content li:nth-child(3) h3 i{
+				display: block;
+				float: right;
+				margin-right: 0.3rem;
+			}
+			#sendProduct .content li:nth-child(4) h3{
+				height: 0.3rem;
+				width: 100%;
+				font-weight: 100;
+				font-size: 0.12rem;
+				margin-left: 0.1rem;
+			}
+			#sendProduct .content li:nth-child(4) h3 span:first-child{
+				background: #00b762;
+				color: white;
+				margin-right: 0.2rem;
+			}
+			#sendProduct .content li:nth-child(4) h3 i{
+				display: block;
+				float: right;
+				margin-right: 0.3rem;
+			}
+			#sendProduct .content li:nth-child(5) input{
+				outline: none;
+				border: none;
+				color: #CCCCCC;
+				font-size: 0.12rem;
+				margin-left: 0.1rem;
+			}
+			#sendProduct .content li:nth-child(5) input:first-child{
+				display: block;
+				float: left;
+			}
+			#sendProduct .content li:nth-child(5) input:last-child{
+				display: block;
+				float: right;
+			}
+			#sendProduct .content li:nth-child(6) h3{
+				height: 0.3rem;
+				width: 100%;
+				display: block;
+			}
+			#sendProduct .content li:nth-child(6) h3 span{
+				display: block;
+			}
+			#sendProduct .content li:nth-child(6) span:first-child{
+				margin-left: 0.1rem;
+				color: #CCCCCC;
+				float: left;
+				font-size: 0.12rem;
+			}
+			#sendProduct .content li:nth-child(6) span:last-child{
+				/*display: block;*/
+				float: right;
+				margin-right: 0.3rem;
+				font-size: ;
+			}
+			#sendProduct .content li:nth-child(7) h3{
+				height: 0.3rem;
+				width: 100%;
+				font-size: 0.12rem;
+				
+			}
+			#sendProduct .content li:nth-child(7) h3 span:first-child{
+				margin-left: 0.1rem;
+				
+			}
+			#sendProduct .content li:nth-child(7) h3 span:last-child{
+				display: block;
+				float: right;
+				margin-right: 0.3rem;
+				color: green;
+			}
+			#sendProduct .content li:nth-child(7) h3 span:last-child em{
+				font-style: normal;
+				color: #CCCCCC;
+			}
+			#sendProduct .content li:nth-child(7) h3 span:last-child i{
+				color: #CCCCCC;
+			}
+			#sendProduct .content li:nth-child(8) h3{
+				height: 0.3rem;
+				width: 100%;
+				font-size: 0.12rem;
+			}
+			#sendProduct .content li:nth-child(8) h3 span:first-child{
+				margin-left: 0.1rem;
+			}
+			#sendProduct .content li:nth-child(8) h3 span:last-child{
+				display: block;
+				margin-right: 0.3rem;
+				color: #CCCCCC;
+				float: right;
+			}
+			#sendProduct .content li:last-child h3{
+				height: 0.3rem;
+				width: 100%;
+				font-size: 0.12rem;
+			}
+			#sendProduct .content li:last-child h3 span:first-child{
+				margin-left: 0.1rem;
+			}
+			#sendProduct .content li:last-child h3 span:last-child{
+				margin-right: 0.3rem;
+				display: block;
+				float: right;
+				color: #CCCCCC;
+			}
+			footer{
+				height: 0.38rem;
+				width: 100%;
+				background: #3c3c3c;
+				position: fixed;
+				bottom: 0;
+			}
+			footer span:first-child{
+				height: 0.38rem;
+				width: 0.6rem;
+				color: white;
+				line-height: 0.38rem;
+				font-size: 0.12rem;
+				margin-left: 0.1rem;
+				
+			}
+			footer span:first-child em{
+				font-style: normal;
+			}
+			footer span:first-child i{
+				font-size: 0.1rem;
+			}
+			footer span:last-child{
+				height: 0.38rem;
+				width: 0.88rem;
+				background: #00e166;
+				color: white;
+				display: block;
+				float: right;
+				line-height: 0.38rem;
+				text-align: center;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<header>
+			<i class="iconfont return">&#xe64e;</i><span>确认订单</span>
+		</header>
+		<div id="address">
+			<div id="add">
+				<h4>+添加收货地址</h4>
+			</div>
+		</div>
+		<div id="sendProduct">
+			<ul class="sendProductUl">
+				<li>
+					<span>送达时间</span>
+					<select name="send">
+						<option value="op1">尽快送达</option>
+						<option value="op1">尽快送达</option>
+						<option value="op1">尽快送达</option>
+						<option value="op1">尽快送达</option>
+					</select>
+					<i class="iconfont sendTimeRight">&#xe735;</i>
+				</li>
+				<li>
+					<span>支付方式</span><em>在线支付</em>
+				</li>
+			</ul>
+			<ul class="content">
+				<li><p>乐凯萨比萨<span>(中心书城店)</span></p></li>
+				<li>
+					<h3>
+						<img src="img/b85f22e8953a5e16341cbbb629435jpeg.jpg"/>
+						<span>蔓越草莓买一送一</span>
+						<span>x<i>1</i></span>
+						<span>￥76</span>
+						<span>￥38</span>
+					</h3>
+					
+				</li>
+				<li>
+					<h3>
+						<span>商家</span>
+						<span>配送费</span>
+						<i>9元</i>
+					</h3>    
+					
+				</li>
+				<li>
+					<h3>
+						<span>新客</span>
+						<span>本店新客立减</span>
+						<i>10元</i>
+					</h3>    
+				</li>
+				<li>
+					<input type="text" placeholder="红包（店铺专享红包）" />
+					<input type="text" placeholder="选择地址后使用红包" />
+				</li>
+				<li>
+					<h3>
+						<span>优惠说明</span>
+						<span>￥<i>37</i></span>
+					</h3>
+					
+				</li>
+				<li>
+					<h3><span>餐具份数</span><span>马上助力环保<em>未选择</em><i class="iconfont">&#xe735;</i></span></h3>
+				</li>
+				<li>
+					<h3>
+						<span>订单备注</span><span>口味、偏好<i class="iconfont">&#xe735;</i></span>
+					</h3>
+					
+				</li>
+				<li>
+					<h3>
+						<span>发票信息</span><span>不需要开发票<i class="iconfont">&#xe735;</i></span>
+					</h3>
+				</li>
+			</ul>
+		</div>
+		<footer>
+			<span><em>￥37</em><i>l&nbsp;已优惠￥38</i></span>
+			<span>去支付</span>
+		</footer>
+	</body>
+</html>

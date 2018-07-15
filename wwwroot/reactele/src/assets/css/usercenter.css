@@ -1,0 +1,198 @@
+.headeruser{
+    height: 1.7rem;
+    width: 100%;
+    background: #2395ff;
+}
+ .headerTop{
+    height: 0.44rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.headerTop h3{
+    height: 0.3rem;
+    width: 100%;
+    line-height: 0.3rem;
+    color: white;
+    font-size: 0.12rem;
+}
+.headerTop h3 span:first-child{
+    margin-left: 0.1rem;
+}
+.headerTop h3 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    float: right;
+    margin: 0 0.1rem;
+}
+.headerFoot{
+    height: 0.8rem;
+    width: 98%;
+    /*background: #00B762;*/
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.headerFoot img{
+    height: 0.8rem;
+    width: 0.8rem;
+    display: block;
+    float: left;
+    color: white;
+    
+}
+ .centerMessage{
+    height: 0.8rem;
+    flex: 1;
+    color: white;
+    /*display: flex;*/
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+
+.centerMessage h4{
+    display: block;
+    width: 100%;
+    height: 0.4rem;
+    padding-left: 0.2rem;
+    line-height: 0.4rem;
+}
+.centerMessage p{
+    display: block;
+    width: 100%;
+    height: 0.4rem;
+    padding-left: 0.2rem;
+    line-height: 0.4rem;
+}
+
+#headerFoot button{
+    border:none;
+    background: #000;
+    color:#fff;
+    border-radius: 10%;
+    width: 50%;
+    height: 80%;
+    outline: none;
+    margin: 0;
+    line-height: 0;
+
+}
+.headerFoot i{
+    margin: 0 0.1rem;
+    color: white;
+}
+.wallet{
+    height: 0.8rem;
+    width: 100%;
+}
+.wallet ul{
+    height: 0.8rem;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 1px solid #CCCCCC;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.wallet ul li{
+    height: 0.8rem;
+    flex: 1;
+    text-align: center;
+    
+    
+}
+/* .wallet ul li:nth-child(2){
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+} */
+.wallet ul li h4{
+    margin-top: 0.2rem;
+    font-size: 0.14rem;
+    font-weight: 200;
+    display: block;
+    line-height: 0.2rem;
+    text-align: center;
+}
+.wallet ul li:first-child h4{
+    color: #ff9900
+}
+.wallet ul li:nth-child(2) h4{
+    color: #ff6f52
+}
+.wallet ul li:nth-child(3) h4{
+    color: #6ac20b
+}
+.wallet ul li h4 span{
+    font-size: 0.1rem;
+}
+.wallet ul li p{
+    font-size: 0.1rem;
+    text-align: center;
+    line-height: 0.2rem;
+}
+.getMessage{
+    min-height: 2.8rem;
+    width: 100%;
+    
+}
+.getMessage ul{
+    min-height: 2.8rem;
+    width: 100%;
+}
+.getMessage ul li{
+    height: 0.5rem;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.getMessage ul li>i{
+    margin:0 0.1rem;
+}
+.getMessage ul li a:nth-child(2){
+    display: block;
+    flex: 1;
+    display: flex;
+    
+}
+.getMessage ul li em{
+    font-style: normal;
+    flex: 1;
+}
+.getMessage ul li a i{
+    margin: 0 0.2rem;
+    font-size: 0.12rem;
+}
+footer{
+    height: 0.5rem;
+    width: 100%;
+    background: white;
+    position: flex;
+    bottom: 0;
+}
+footer ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul li{
+    flex: 1;
+    /*display: flex;*/
+}
+footer ul li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.1rem;
+}
+footer ul li p{
+    font-size: 0.12rem;
+}

@@ -1,0 +1,15 @@
+.collect{
+    height:.55rem;
+   background: #0096ff;
+   
+}
+.collect h2{
+    color:#fff;
+    font-weight: 100;
+    line-height: .55rem;
+    margin-left: .2rem;
+}
+h3{
+    text-align: center;
+    margin-top: 30%;
+}

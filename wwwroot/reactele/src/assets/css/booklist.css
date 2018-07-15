@@ -1,0 +1,55 @@
+.booklist{
+    height:.55rem;
+   background: #0096ff;
+   
+}
+.booklist h2{
+    color:#fff;
+    font-weight: 100;
+    line-height: .55rem;
+    margin-left: .2rem;
+}
+    main{
+        height:100%;
+    }
+    .nologin{
+        text-align: center;
+        padding-top: 25%;
+    }
+    .nologin button{
+        width:1.25rem;
+        height:.4rem;
+        color:#fff;
+        background: #4dc060;
+        border:none;
+        font-size: .19rem;
+        margin-top: .2rem;
+    }
+    .yesloging{
+        height:100%;
+        /* display: none; */
+
+    }
+    .yesloging li{
+        background: #fff;
+        margin-top: .05rem;
+        height:1.2rem;
+        width:100%;
+    }
+    .yesloging li img{
+        width:28%;
+        height:60%;
+        float:left;
+        margin: .1rem;
+
+    }
+    .titlem{
+        float: left;
+        height:100%;
+        line-height: 1.5;
+        margin-left: .1rem;
+
+    }
+    .successs{
+font-size: .1rem;
+    }

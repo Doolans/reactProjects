@@ -1,0 +1,43 @@
+.confimlogin{
+    height:.55rem;
+   background: #0096ff;
+   
+}
+.confimlogin h2{
+    color:#fff;
+    font-weight: 100;
+    line-height: .55rem;
+    margin-left: .2rem;
+}
+
+main {
+    background: #fff;
+}
+.list li{
+    height: .5rem;
+    width: 100%;
+    /* margin-left: 10%; */
+    color: #000;
+    line-height: .5rem;
+    padding-top: 0.3rem;
+
+}
+main ul li input{
+    height:.3rem;
+    border:none;
+    outline: none;
+    border:1px solid #0096ff;
+    
+}
+
+button{
+    height:.5rem;
+    width:1rem;
+    background: green;
+    line-height: .5rem;
+    color:#fff;
+    border:none;
+    border-radius: 10%;
+    margin:1rem 35%;
+
+}

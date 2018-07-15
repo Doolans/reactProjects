@@ -1,0 +1,887 @@
+{ 
+    "_id" : ObjectId("5abdb1c236b3c612f479b821"), 
+    "menus" : [
+        {
+            "description" : " 大家喜欢吃，才叫真好吃。", 
+            "is_selected" : true, 
+            "icon_url" : "https://fuss10.elemecdn.com/0/6a/05b267f338acfeb8bd682d16e836dpng.png?imageMogr/format/webp/thumbnail/26x/", 
+            "name" : " 热销 ", 
+            "foods" : [
+                {
+                    "rating" : 4.22, 
+                    "description" : " 金枕加量 50%，看得见的果肉！新榴梿上市！当季采摘，果香浓郁，甜度足，强烈推荐！", 
+                    "month_sales" : 54.0, 
+                    "rating_count" : 9.0, 
+                    "tips" : "9 评价 月售 54 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/8/3f/bc217dd04d2a541160ba1beaa1512jpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 全是果肉榴梿比萨 9 英寸 ", 
+                    "activity" : {
+                        "fixed_price" : 58.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 立减 40 元 全是果肉榴梿比萨 9 英寸 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 立减 40 元 全是果肉榴梿比萨 9 英寸 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计算 "
+                    }, 
+                    "original_price" : 98.0, 
+                    "satisfy_rate" : 100.0
+                }, 
+                {
+                    "rating" : 4.22, 
+                    "description" : " 金枕加量 50%，看得见的果肉！新榴梿上市！当季采摘，果香浓郁，甜度足，强烈推荐！", 
+                    "month_sales" : 54.0, 
+                    "rating_count" : 9.0, 
+                    "tips" : "9 评价 月售 54 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/8/3f/bc217dd04d2a541160ba1beaa1512jpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 全是果肉榴梿比萨 9 英寸 ", 
+                    "activity" : {
+                        "fixed_price" : 58.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 立减 40 元 全是果肉榴梿比萨 9 英寸 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 立减 40 元 全是果肉榴梿比萨 9 英寸 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计算 "
+                    }, 
+                    "original_price" : 98.0, 
+                    "satisfy_rate" : 100.0
+                }, 
+                {
+                    "rating" : 4.22, 
+                    "description" : " 金枕加量 50%，看得见的果肉！新榴梿上市！当季采摘，果香浓郁，甜度足，强烈推荐！", 
+                    "month_sales" : 54.0, 
+                    "rating_count" : 9.0, 
+                    "tips" : "9 评价 月售 54 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/8/3f/bc217dd04d2a541160ba1beaa1512jpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 全是果肉榴梿比萨 9 英寸 ", 
+                    "activity" : {
+                        "fixed_price" : 58.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 立减 40 元 全是果肉榴梿比萨 9 英寸 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 立减 40 元 全是果肉榴梿比萨 9 英寸 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计算 "
+                    }, 
+                    "original_price" : 98.0, 
+                    "satisfy_rate" : 100.0
+                }
+            ]
+        }, 
+        {
+            "description" : " 美味又实惠, 大家快来抢!", 
+            "is_selected" : false, 
+            "icon_url" : "https://fuss10.elemecdn.com/0/6a/05b267f338acfeb8bd682d16e836dpng.png?imageMogr/format/webp/thumbnail/26x/", 
+            "name" : " 优惠  ", 
+            "foods" : [
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }
+            ]
+        }, 
+        {
+            "description" : "", 
+            "is_selected" : false, 
+            "name" : " 满减套餐专区  ", 
+            "foods" : [
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }
+            ]
+        }, 
+        {
+            "description" : "", 
+            "is_selected" : false, 
+            "name" : " 单品比萨   ", 
+            "foods" : [
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }
+            ]
+        }, 
+        {
+            "description" : " 榴梿口味与非榴梿口味双拼比萨 ", 
+            "is_selected" : false, 
+            "name" : "双拼比萨", 
+            "foods" : [
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }
+            ]
+        }, 
+        {
+            "description" : "", 
+            "is_selected" : false, 
+            "name" : "意面", 
+            "foods" : [
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }
+            ]
+        }, 
+        {
+            "description" : "", 
+            "is_selected" : false, 
+            "name" : "小吃", 
+            "foods" : [
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }
+            ]
+        }, 
+        {
+            "description" : "", 
+            "is_selected" : false, 
+            "name" : "饮品", 
+            "foods" : [
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }
+            ]
+        }, 
+        {
+            "description" : "", 
+            "is_selected" : false, 
+            "name" : "沙拉", 
+            "foods" : [
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }
+            ]
+        }, 
+        {
+            "description" : "", 
+            "is_selected" : false, 
+            "name" : "环保包装", 
+            "foods" : [
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }, 
+                {
+                    "rating" : 3.71, 
+                    "description" : " 低于 5 折！含 12 英寸金枕榴梿拼咖喱虾蟹比萨 * 1，小食墨墨鸡鸡块（配香辣酱）*1，蔓越莓暖暖 * 2", 
+                    "month_sales" : 26.0, 
+                    "rating_count" : 7.0, 
+                    "tips" : "7 评价 月售 26 份 ", 
+                    "image_path" : "https://fuss10.elemecdn.com/d/e6/df3649b402bbc9c423d2889b6292ajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/", 
+                    "attributes" : [
+                        {
+                            "icon_name" : " 新 ", 
+                            "icon_color" : "5ec452"
+                        }
+                    ], 
+                    "name" : " 金枕榴梿 / 拼咖喱虾蟹套餐（暖暖系列）", 
+                    "activity" : {
+                        "fixed_price" : 99.0, 
+                        "applicable_quantity_text" : " 每单限 2 份优惠 ", 
+                        "description" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "max_quantity" : 2.0, 
+                        "name" : " 特价 99 元，金枕榴莲双拼套餐 ", 
+                        "image_text" : " 限 2 份 ", 
+                        "applicable_quantity" : 2.0, 
+                        "applicable_quantity_detail_text" : " 每单限 2 份优惠，超出的份数按原价计"
+                    }, 
+                    "original_price" : 203.0, 
+                    "satisfy_rate" : 85.0
+                }
+            ]
+        }
+    ]
+}

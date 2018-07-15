@@ -1,0 +1,68 @@
+
+    .search{
+        height:.55rem;
+       background: #0096ff;
+       display: flex;
+       position: relative;
+       
+    }
+    .search input{
+        height:.35rem;
+        width: 70%;
+        margin:.1rem 0;
+        border:none;
+        border-radius: .2rem;
+        outline:none;
+    }
+    .search .glass{
+        position: absolute;
+        left: 18%;
+        top: 28%;
+        font-size: .23rem;
+    }
+    .search .turn,.sear{
+        flex:1;
+        line-height: .55rem;
+        text-align: center;
+        color:#fff;
+        font-size: .2rem;
+    }
+    
+    .main{
+        height: 5rem;
+        background: #fff;
+    }
+    
+    .main span{
+        display: inline-block;
+        margin:.1rem 0;
+    }
+    .del{
+        float: right;
+        margin-right: .1rem;
+        margin-top: .1rem;
+    }
+    .todolist{
+        
+        height: 35%;
+        background: #fff;
+        overflow-y: auto;
+    }
+    .todolist li{
+        float: left;
+        width: 20%;
+        height: 20%;
+        margin: 2%;
+    
+    }
+    .todolist li a{
+        display: inline-block;
+        height: 80%;
+        width: 100%;
+        border: 1px solid #eee;
+        text-align: center;
+        line-height: .4rem;
+        border-radius: 20%;
+    
+    }
+    

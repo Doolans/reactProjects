@@ -1,0 +1,370 @@
+body{
+    background: #f5f5f5;
+}
+.confimorderheader{
+    height: 0.55rem;
+    width: 100%;
+    background: #00a3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+.confimorderheader i{
+    display: flex;
+    width: 0.2rem;
+    line-height: 0.4rem;
+    text-align: center;
+
+}
+.confimorderheader span {
+    display: block;
+    flex: 1;
+    text-align: center;
+    line-height: 0.4rem;
+    vertical-align: center;
+}
+#address{
+    height: 0.66rem;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px dashed #007AFF;
+    
+}
+#add{
+    height: 0.3rem;
+    width: 1.35rem;
+    border-radius: 0.3rem;
+    border: 1px solid #00a3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00a3ff;
+    font-size: 0.14rem;
+    font-weight: 200;
+    
+}
+
+#sendProduct{
+
+    margin-top: 0.06rem;
+    width: 100%;
+    
+}
+#sendProduct .sendProductUl{
+    
+    width: 100%;
+    font-size: 0.14rem;
+    
+}
+#sendProduct .sendProductUl li{
+    height: 0.46rem;
+    width: 100%;
+    line-height: 0.46rem;
+    display: flex;
+}
+#sendProduct .sendProductUl li span{
+    display: block;
+    width: 0.6rem;
+    margin-left: 0.1rem;
+    float: left;
+    
+}
+#sendProduct .sendProductUl li select{
+    flex: 1;
+    border: none;
+    background: pink;
+    border: 1px solid #ccc;
+    height: 71%;
+    border-radius: 8%;
+    width: 24%;
+}
+#sendProduct .sendProductUl li .sendTimeRight{
+    width: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+#sendProduct .sendProductUl li em{
+    display: block;
+    float: right;
+    color: #00a3ff;
+    font-style: normal;
+    right: 0.1rem;
+    margin-right: 0.1rem;
+}
+/*.contentss li h4{
+    width: 0.7rem;
+    margin-left: 0.1rem;
+}
+.contentss li #shop{
+    display: block;
+    font-size: 0.12rem;
+    width: 1.5rem;
+    margin-left: 0;
+}
+.contentss li img{
+    margin-left: 0.1rem;
+}
+.contentss #productDetail span:first-child{
+    display: block;
+    width: 1.8rem;
+}
+#productDetail{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#productDetail #productDetailContent{
+    height: 0.3rem;
+    font-size: 0.12rem;
+    
+}
+#productDetail #productDetailContent img{
+    height: 0.3rem;
+    width: 0.3rem;
+}
+#productDetail #productDetailContent span:nth-child(1){
+    display: block;
+    width: 0.8rem;
+    height: 0.3rem;
+    overflow: hidden;
+}
+#productDetail #productDetailContent span{
+    
+}*/
+#sendProduct .contentss{
+    min-height: 0.94rem;
+    width: 100%;
+    
+}
+/* h3 span{
+    color:#c45353;
+}  */
+#sendProduct .contentss li{
+    height: 0.46rem;
+    width: 100%;
+    line-height: 0.46rem;
+    display: flex;
+    align-items: center;
+}
+.box1{
+    width: 5%;
+    background: #FF9800;
+    color: #fff;
+    text-align: center;
+    height: 74%;
+    display: inline-block;
+    margin: 0 0.03rem;
+    border-radius: 50%;
+    line-height: 148%;
+    padding: 0 .01rem;
+
+}
+
+.contentss h3 #color{
+    color:#794f11;
+    margin-left: .1rem;
+}
+.inputs{
+    width: 5%;
+    border: none;
+    text-align: center;
+    line-height: 1.2;
+    border: 1px solid #000;
+    margin-left: .05rem;
+}
+#sendProduct .contentss li:nth-child(1) p{
+    display: block;
+    font-size: 0.16rem;
+    height: 0.3rem;
+    font-weight: 800;
+    margin-left: 0.1rem;
+    
+}
+/*#sendProduct .contentss li:nth-child(1) p span{
+    font-size: 0.8rem;
+}*/
+#sendProduct .contentss li:nth-child(2) h3{
+    display: block;
+    height: 0.3rem;
+    font-size: 0.15rem;
+    font-weight: 100;
+    line-height: 0.3rem;
+    margin-left: 0.1rem;
+}
+#sendProduct .contentss li:nth-child(2) h3 img{
+    display: block;
+    height: 0.4rem;
+    width: 0.4rem;
+    float: left;
+}
+#sendProduct .contentss li:nth-child(2) h3 span{
+    line-height: 0.3rem;
+    padding: 0 0.05rem;
+}
+#sendProduct .contentss li:nth-child(2) h3 span:nth-child(4){
+    text-decoration: line-through;
+}
+#sendProduct .contentss li:nth-child(2) h3 span:last-child{
+    color: orangered;
+    display: block;
+    float: right;
+}
+#sendProduct .contentss li:nth-child(3) h3{
+    height: 0.3rem;
+    width: 100%;
+    font-weight: 100;
+    font-size: 0.14rem;
+    margin-left: 0.1rem;
+}
+#sendProduct .contentss li:nth-child(3) h3 span:first-child{
+    background: #60acf4;
+    color: white;
+    margin-right: 0.2rem;
+}
+#sendProduct .contentss li:nth-child(3) h3 i{
+    display: block;
+    float: right;
+    margin-right: 0.3rem;
+}
+#sendProduct .contentss li:nth-child(4) h3{
+    height: 0.3rem;
+    width: 100%;
+    font-weight: 100;
+    font-size: 0.14rem;
+    margin-left: 0.1rem;
+}
+#sendProduct .contentss li:nth-child(4) h3 span:first-child{
+    background: #00b762;
+    color: white;
+    margin-right: 0.2rem;
+}
+#sendProduct .contentss li:nth-child(4) h3 i{
+    display: block;
+    float: right;
+    margin-right: 0.3rem;
+}
+#sendProduct .contentss li:nth-child(5) input{
+    outline: none;
+    border: none;
+    color: #CCCCCC;
+    font-size: 0.14rem;
+    margin-left: 0.1rem;
+}
+#sendProduct .contentss li:nth-child(5) input:first-child{
+    display: block;
+    float: left;
+}
+#sendProduct .contentss li:nth-child(5) input:last-child{
+    display: block;
+    float: right;
+}
+#sendProduct .contentss li:nth-child(6) h3{
+    height: 0.3rem;
+    width: 100%;
+    display: block;
+}
+#sendProduct .contentss li:nth-child(6) h3 span{
+    display: block;
+}
+#sendProduct .contentss li:nth-child(6) span:first-child{
+    margin-left: 0.1rem;
+    color: rgb(158, 29, 29);
+    float: left;
+    font-size: 0.14rem;
+}
+#sendProduct .contentss li:nth-child(6) span:last-child{
+    /*display: block;*/
+    float: right;
+    margin-right: 0.3rem;
+
+}
+#sendProduct .contentss li:nth-child(7) h3{
+    height: 0.3rem;
+    width: 100%;
+    font-size: 0.14rem;
+    
+}
+#sendProduct .contentss li:nth-child(7) h3 span:first-child{
+    margin-left: 0.1rem;
+    
+}
+#sendProduct .contentss li:nth-child(7) h3 span:last-child{
+    display: block;
+    float: right;
+    margin-right: 0.3rem;
+    color: green;
+}
+ .contentss li:nth-child(7) h3 span:last-child em{
+    font-style: normal;
+    color: #CCCCCC;
+}
+ .contentss li:nth-child(7) h3 span:last-child i{
+    color: #CCCCCC;
+}
+ .contentss li:nth-child(8) h3{
+    height: 0.3rem;
+    width: 100%;
+    font-size: 0.14rem;
+}
+ .contentss li:nth-child(8) h3 span:first-child{
+    margin-left: 0.1rem;
+}
+ .contentss li:nth-child(8) h3 span:last-child{
+    display: block;
+    margin-right: 0.3rem;
+    color: #CCCCCC;
+    float: right;
+}
+.contentss li:last-child h3{
+    height: 0.3rem;
+    width: 100%;
+    font-size: 0.14rem;
+}
+.contentss li:last-child h3 span:first-child{
+    margin-left: 0.1rem;
+}
+ .contentss li:last-child h3 span:last-child{
+    margin-right: 0.3rem;
+    display: block;
+    float: right;
+    color: #CCCCCC;
+}
+.lastfot{
+    height: 0.38rem;
+    width: 100%;
+    background: #3c3c3c;
+    position: fixed;
+    bottom: 0;
+}
+.lastfot span:first-child{
+    height: 0.38rem;
+    width: 0.6rem;
+    color: white;
+    line-height: 0.38rem;
+    font-size: 0.14rem;
+    margin-left: 0.1rem;
+    
+}
+.lastfot span:first-child em{
+    font-style: normal;
+    font-size: .18rem;
+}
+.lastfot span:first-child i{
+    font-size: 0.16rem;
+}
+.lastfot span:last-child{
+    height: 0.38rem;
+    width: 0.88rem;
+    background: #00e166;
+    color: white;
+    display: block;
+    float: right;
+    line-height: 0.38rem;
+    text-align: center;
+}

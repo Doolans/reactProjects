@@ -1,0 +1,21 @@
+
+<script src="/xheditor/jquery/jquery-1.11.2.min.js" charset="utf-8"></script>
+<script src="/xheditor/xheditor-1.2.2.min.js" charset="utf-8"></script>
+<script src="/xheditor/xheditor_lang/zh-cn.js" charset="utf-8"></script>
+
+<textarea name="content" id="content" cols="60" rows="8"><%=newslist.content%></textarea>
+
+<script>
+
+//    $('#content').xheditor()
+
+    $('#content').xheditor({
+        html5Upload: false,
+        upMultiple: '3',
+        tools:'full',
+        skin:'default',
+        width:800, height:400,
+        upImgUrl:"/upload",
+        upImgExt:"jpg,jpeg,gif,png"
+    });
+</script>

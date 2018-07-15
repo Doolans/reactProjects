@@ -1,0 +1,620 @@
+{ 
+    "_id" : ObjectId("5abdab6636b3c612f479b81c"), 
+    "shop_id" : 155170084.0, 
+    "name" : "乐凯撒比萨 (中心书城店)", 
+    "description" : " 乐凯撒比萨（中心书城店）", 
+    "distance" : 615.0, 
+    "address" : " 深圳市福田区莲花街道红荔路深圳书城中心城内 N125 号铺 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 803309746.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/9/ec/1f13f62196de7301242a6cebbc8e0png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "10:00/22:00"
+    ], 
+    "recent_order_num" : 383.0, 
+    "tel" : "13714574887 0755-23984877", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 4.3, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 9.0, 
+    "float_minimum_order_amount" : 0.0, 
+    "order_lead_time" : 47.0
+}
+{ 
+    "_id" : ObjectId("5abdb36736b3c612f479b826"), 
+    "shop_id" : 996991.0, 
+    "name" : "汉堡王（深圳市民中心店 22736）", 
+    "description" : "Taste is King！Home of the WHOPPER！ 汉堡王饿货专享福利震撼上线，点单就选饿了么！", 
+    "distance" : 269.0, 
+    "address" : " 深圳市福田区莲花街道深圳地铁一期工程市民中心站物业区 A29,A30 铺位 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 801297258.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/e/17/27fa41fc2b03b1b8c2d794a5cf139jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "08:00/20:30"
+    ], 
+    "recent_order_num" : 859.0, 
+    "tel" : "4008855777", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 4.5, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 5.0, 
+    "float_minimum_order_amount" : 0.0, 
+    "order_lead_time" : 48.0
+}
+{ 
+    "_id" : ObjectId("5abdb43e36b3c612f479b827"), 
+    "shop_id" : 150095460.0, 
+    "name" : "西贝莜面村 (深圳中心城店)", 
+    "description" : "西贝莜面村 (深圳中心城店)", 
+    "distance" : 1135.0, 
+    "address" : " 深圳市福田区福田街道福华一路 3 号中心城 UR 层 RUG006-007 铺 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 801003458.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/4/04/0dcea58cbe58fa49165343fb34b66jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "08:00/20:30"
+    ], 
+    "recent_order_num" : 709.0, 
+    "tel" : "4008855777", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 5.0, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 5.0, 
+    "float_minimum_order_amount" : 20.0, 
+    "order_lead_time" : 53.0
+}
+{ 
+    "_id" : ObjectId("5abdb5db36b3c612f479b82e"), 
+    "shop_id" : 161365893.0, 
+    "name" : "御膳卤卤鹅", 
+    "description" : "", 
+    "distance" : 1557.0, 
+    "address" : " 深圳市福田区福田街道彩田南路 3001 号岗厦彩福大厦业裙楼首层 K1104 铺位 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 805147258.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/1/8a/96acecefae02f378aa66906ff45bcjpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "11:00/20:00"
+    ], 
+    "recent_order_num" : 169.0, 
+    "order_lead_time" : 46.0, 
+    "tel" : "13714754734", 
+    "rating" : 5.0, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 3.0, 
+    "float_minimum_order_amount" : 20.0
+}
+{ 
+    "_id" : ObjectId("5abdb67536b3c612f479b833"), 
+    "shop_id" : 155170084.0, 
+    "name" : "乐凯撒比萨 (中心书城店)", 
+    "description" : " 乐凯撒比萨（中心书城店）", 
+    "distance" : 615.0, 
+    "address" : " 深圳市福田区莲花街道红荔路深圳书城中心城内 N125 号铺 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 803309746.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/9/ec/1f13f62196de7301242a6cebbc8e0png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "10:00/22:00"
+    ], 
+    "recent_order_num" : 383.0, 
+    "tel" : "13714574887 0755-23984877", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 4.3, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 9.0, 
+    "float_minimum_order_amount" : 0.0, 
+    "order_lead_time" : 47.0
+}
+{ 
+    "_id" : ObjectId("5abdb68036b3c612f479b834"), 
+    "shop_id" : 996991.0, 
+    "name" : "汉堡王（深圳市民中心店 22736）", 
+    "description" : "Taste is King！Home of the WHOPPER！ 汉堡王饿货专享福利震撼上线，点单就选饿了么！", 
+    "distance" : 269.0, 
+    "address" : " 深圳市福田区莲花街道深圳地铁一期工程市民中心站物业区 A29,A30 铺位 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 801297258.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/e/17/27fa41fc2b03b1b8c2d794a5cf139jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "08:00/20:30"
+    ], 
+    "recent_order_num" : 859.0, 
+    "tel" : "4008855777", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 4.5, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 5.0, 
+    "float_minimum_order_amount" : 0.0, 
+    "order_lead_time" : 48.0
+}
+{ 
+    "_id" : ObjectId("5abdb68936b3c612f479b835"), 
+    "shop_id" : 150095460.0, 
+    "name" : "西贝莜面村 (深圳中心城店)", 
+    "description" : "西贝莜面村 (深圳中心城店)", 
+    "distance" : 1135.0, 
+    "address" : " 深圳市福田区福田街道福华一路 3 号中心城 UR 层 RUG006-007 铺 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 801003458.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/4/04/0dcea58cbe58fa49165343fb34b66jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "08:00/20:30"
+    ], 
+    "recent_order_num" : 709.0, 
+    "tel" : "4008855777", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 5.0, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 5.0, 
+    "float_minimum_order_amount" : 20.0, 
+    "order_lead_time" : 53.0
+}
+{ 
+    "_id" : ObjectId("5abdb69336b3c612f479b836"), 
+    "shop_id" : 161365893.0, 
+    "name" : "御膳卤卤鹅", 
+    "description" : "", 
+    "distance" : 1557.0, 
+    "address" : " 深圳市福田区福田街道彩田南路 3001 号岗厦彩福大厦业裙楼首层 K1104 铺位 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 805147258.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/1/8a/96acecefae02f378aa66906ff45bcjpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "11:00/20:00"
+    ], 
+    "recent_order_num" : 169.0, 
+    "order_lead_time" : 46.0, 
+    "tel" : "13714754734", 
+    "rating" : 5.0, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 3.0, 
+    "float_minimum_order_amount" : 20.0
+}
+{ 
+    "_id" : ObjectId("5abdb6a736b3c612f479b83a"), 
+    "shop_id" : 155170084.0, 
+    "name" : "乐凯撒比萨 (中心书城店)", 
+    "description" : " 乐凯撒比萨（中心书城店）", 
+    "distance" : 615.0, 
+    "address" : " 深圳市福田区莲花街道红荔路深圳书城中心城内 N125 号铺 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 803309746.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/9/ec/1f13f62196de7301242a6cebbc8e0png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "10:00/22:00"
+    ], 
+    "recent_order_num" : 383.0, 
+    "tel" : "13714574887 0755-23984877", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 4.3, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 9.0, 
+    "float_minimum_order_amount" : 0.0, 
+    "order_lead_time" : 47.0
+}
+{ 
+    "_id" : ObjectId("5abdb6b036b3c612f479b83b"), 
+    "shop_id" : 996991.0, 
+    "name" : "汉堡王（深圳市民中心店 22736）", 
+    "description" : "Taste is King！Home of the WHOPPER！ 汉堡王饿货专享福利震撼上线，点单就选饿了么！", 
+    "distance" : 269.0, 
+    "address" : " 深圳市福田区莲花街道深圳地铁一期工程市民中心站物业区 A29,A30 铺位 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 801297258.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/e/17/27fa41fc2b03b1b8c2d794a5cf139jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "08:00/20:30"
+    ], 
+    "recent_order_num" : 859.0, 
+    "tel" : "4008855777", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 4.5, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 5.0, 
+    "float_minimum_order_amount" : 0.0, 
+    "order_lead_time" : 48.0
+}
+{ 
+    "_id" : ObjectId("5abdb6b836b3c612f479b83c"), 
+    "shop_id" : 150095460.0, 
+    "name" : "西贝莜面村 (深圳中心城店)", 
+    "description" : "西贝莜面村 (深圳中心城店)", 
+    "distance" : 1135.0, 
+    "address" : " 深圳市福田区福田街道福华一路 3 号中心城 UR 层 RUG006-007 铺 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 801003458.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/4/04/0dcea58cbe58fa49165343fb34b66jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "08:00/20:30"
+    ], 
+    "recent_order_num" : 709.0, 
+    "tel" : "4008855777", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 5.0, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 5.0, 
+    "float_minimum_order_amount" : 20.0, 
+    "order_lead_time" : 53.0
+}
+{ 
+    "_id" : ObjectId("5abdb6c936b3c612f479b83d"), 
+    "shop_id" : 161365893.0, 
+    "name" : "御膳卤卤鹅", 
+    "description" : "", 
+    "distance" : 1557.0, 
+    "address" : " 深圳市福田区福田街道彩田南路 3001 号岗厦彩福大厦业裙楼首层 K1104 铺位 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 805147258.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/1/8a/96acecefae02f378aa66906ff45bcjpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "11:00/20:00"
+    ], 
+    "recent_order_num" : 169.0, 
+    "order_lead_time" : 46.0, 
+    "tel" : "13714754734", 
+    "rating" : 5.0, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 3.0, 
+    "float_minimum_order_amount" : 20.0
+}
+{ 
+    "_id" : ObjectId("5abdb6d736b3c612f479b841"), 
+    "shop_id" : 155170084.0, 
+    "name" : "乐凯撒比萨 (中心书城店)", 
+    "description" : " 乐凯撒比萨（中心书城店）", 
+    "distance" : 615.0, 
+    "address" : " 深圳市福田区莲花街道红荔路深圳书城中心城内 N125 号铺 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 803309746.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/9/ec/1f13f62196de7301242a6cebbc8e0png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "10:00/22:00"
+    ], 
+    "recent_order_num" : 383.0, 
+    "tel" : "13714574887 0755-23984877", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 4.3, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 9.0, 
+    "float_minimum_order_amount" : 0.0, 
+    "order_lead_time" : 47.0
+}
+{ 
+    "_id" : ObjectId("5abdb6e236b3c612f479b842"), 
+    "shop_id" : 996991.0, 
+    "name" : "汉堡王（深圳市民中心店 22736）", 
+    "description" : "Taste is King！Home of the WHOPPER！ 汉堡王饿货专享福利震撼上线，点单就选饿了么！", 
+    "distance" : 269.0, 
+    "address" : " 深圳市福田区莲花街道深圳地铁一期工程市民中心站物业区 A29,A30 铺位 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 801297258.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/e/17/27fa41fc2b03b1b8c2d794a5cf139jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "08:00/20:30"
+    ], 
+    "recent_order_num" : 859.0, 
+    "tel" : "4008855777", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 4.5, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 5.0, 
+    "float_minimum_order_amount" : 0.0, 
+    "order_lead_time" : 48.0
+}
+{ 
+    "_id" : ObjectId("5abdb6eb36b3c612f479b843"), 
+    "shop_id" : 150095460.0, 
+    "name" : "西贝莜面村 (深圳中心城店)", 
+    "description" : "西贝莜面村 (深圳中心城店)", 
+    "distance" : 1135.0, 
+    "address" : " 深圳市福田区福田街道福华一路 3 号中心城 UR 层 RUG006-007 铺 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 801003458.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/4/04/0dcea58cbe58fa49165343fb34b66jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "08:00/20:30"
+    ], 
+    "recent_order_num" : 709.0, 
+    "tel" : "4008855777", 
+    "promotion_info" : " 乐凯撒榴梿比萨，新鲜现做，我们将尽快将美味送达您身边！如果您需要开发票，可自行扫描小票下方二维码，按提示进行开票！依照国家相关规定，电子发票与纸质发票具备同等效力！", 
+    "rating" : 5.0, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 5.0, 
+    "float_minimum_order_amount" : 20.0, 
+    "order_lead_time" : 53.0
+}
+{ 
+    "_id" : ObjectId("5abdb6f536b3c612f479b844"), 
+    "shop_id" : 161365893.0, 
+    "name" : "御膳卤卤鹅", 
+    "description" : "", 
+    "distance" : 1557.0, 
+    "address" : " 深圳市福田区福田街道彩田南路 3001 号岗厦彩福大厦业裙楼首层 K1104 铺位 ", 
+    "activities" : [
+        {
+            "attribute" : "17.0", 
+            "description" : " 新用户下单立减 17 元 ", 
+            "icon_color" : "70bc46", 
+            "icon_name" : " 首 ", 
+            "id" : 805147258.0, 
+            "is_exclusive_with_food_activity" : true, 
+            "name" : " 新用户立减 (不与其他活动共享)", 
+            "tips" : " 新用户下单立减 17 元 ", 
+            "type" : 103.0
+        }
+    ], 
+    "pic" : "https://fuss10.elemecdn.com/1/8a/96acecefae02f378aa66906ff45bcjpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/", 
+    "opening_hours" : [
+        "11:00/20:00"
+    ], 
+    "recent_order_num" : 169.0, 
+    "order_lead_time" : 46.0, 
+    "tel" : "13714754734", 
+    "rating" : 5.0, 
+    "recommend" : {
+        "color" : "#e8470b", 
+        "image_hash" : "https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!60x60r/gravity/Center/crop/60x60/", 
+        "is_ad" : false, 
+        "reason" : " 口碑人气好店 ", 
+        "track" : "{\"rankType\":\"3\"}"
+    }, 
+    "float_delivery_fee" : 3.0, 
+    "float_minimum_order_amount" : 20.0
+}

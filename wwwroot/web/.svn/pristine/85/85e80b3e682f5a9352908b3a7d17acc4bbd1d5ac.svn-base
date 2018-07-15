@@ -1,0 +1,155 @@
+.discovery{
+    height:.55rem;
+   background: #0096ff;
+   
+}
+.discovery h2{
+    color:#fff;
+    font-weight: 100;
+    line-height: .55rem;
+    margin-left: .2rem;
+}
+.namebox{
+    height:2.5rem;
+    background: #fff;
+    width:100%;
+    display: flex;
+}
+.boxleft{
+    flex:1;
+    height:100%;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+.boxleft .boxleftT{
+    height:66%;
+    width:100%;
+    border-bottom:1px solid #ccc;
+    
+}
+.boxleft .boxleftU{
+    height:33%;
+}
+.boxright{
+    height:100%;
+    flex:1;
+
+}
+.boxright div{
+
+    width:100%;
+    height:32.7%;
+    border-bottom:1px solid #ccc;
+
+}
+.boxright .boxrightU{
+    border-bottom:none;
+}
+.inbox h3{
+    margin-top: 15%;
+    margin-left: 11%;
+    color:#ff9700;
+}
+.inbox p{
+    margin: .08rem;
+    color:#666;
+
+}
+.inbox img{
+    width: 50%;
+    height: 50%;
+    margin-left: 40%;
+}
+
+.boxleftU h4{
+    margin: 5%;
+    margin-left: 11%;
+}
+.boxleftU img{
+    width: 40%;
+    height: 68%;
+    margin-left: 55%;
+    margin-top: -13%;
+}
+.boxleftU span{
+    margin:.02rem;
+}
+
+.boxright span{
+    display: inline-block;
+    margin-left: .2rem;
+    margin-top: 0.1rem;
+}
+.boxright img{
+    height:50%;
+}
+
+.imgbox{
+    margin: .15rem 0;
+}
+.imgbox img{
+    width:100%;
+    height:100%;
+}
+
+
+.eatbox{
+	height:2.3rem;
+    width:100%;	
+    background: #fff;
+}
+.eatbox .titlebox{
+    text-align:center;
+    margin-bottom: .1rem;
+}
+.titlebox span{
+    margin-bottom: .1rem;
+    display: block;
+}
+.titlebox h3{
+	display: inline-block;
+}
+.titlebox i{
+    color: #ff0000bd;
+    font-size: .23rem;
+    margin: 0 .02rem;
+}
+.foodbox{
+    height:1.77rem;
+    width:100%;
+    font-size: .14rem;
+
+}
+.foodbox ul{
+    display: flex;
+   
+}
+.foodbox ul li{
+    flex:1;
+
+   
+}
+.foodbox ul li img{
+    width: 68%;
+    margin-top: 0.14rem;
+    margin-left: 0.14rem;
+    margin-bottom: .05rem;
+
+}
+.foodbox ul li p{
+    margin: .05rem;
+}
+.foodbox ul li span{
+    color:red;
+    margin-left: .1rem;
+}
+.foodbox a{
+    text-align: center;
+    display: block;
+    margin-top: 2.3%;
+}
+
+.eatbox.boxlast{
+	margin-bottom:.52rem; 
+}
